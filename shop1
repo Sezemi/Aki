@@ -3,7 +3,7 @@ repeat task.wait() until game:IsLoaded()
 -- Load the first script in a separate thread
 if game.PlaceId == 2414851778 or game.PlaceId == 14363263080 then
     spawn(function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Sezemi/Aki/refs/heads/main/main111'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Sezemi/Aki/refs/heads/main/main1111'))()
     end)
 end
 
