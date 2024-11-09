@@ -10,6 +10,6 @@ end
 -- Load the second script only if the PlaceId is 14363263080
 if game.PlaceId == 14363263080 then
     spawn(function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Sezemi/Aki/refs/heads/main/spell2'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Sezemi/Aki/refs/heads/main/spell3'))()
     end)
 end
